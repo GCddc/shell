@@ -143,3 +143,42 @@ cp man
 cp--help
 cp --help
 cp $HISTFILE ~/git/history_20201711.txt
+git add
+git status
+git add history_20201711.txt
+git commit
+git push
+cd
+cd Data
+cd shell
+cd
+cd Data
+cd opentraveldata
+ls -lrt
+ls -lrt|head -n2
+ls -lrt | tail -n 1
+ls -sSlr
+ls -sSlr | tail -n > largest_file.txt
+ls -sSlr | tail -n1 > largest_file.txt
+ls
+cd 
+cd Data
+cd shell
+head -n 5 Data /shell/Finn.txt|wc -w
+head -n 5 Finn.txt|wc -w
+can -n Finn.txt | head -n3
+cat -n Finn.txt | head -n3
+ls
+can -n Text_example.txt > NewText_example.txt
+cat -n Text_example.txt > NewText_example.txt
+cat NewText_example.txt
+cat Text_example.txt
+cat Text_example.txt >> dobleText_example.txt
+cat dobleText_example.txt
+cd
+cd git
+ls -lrt
+cat~/.history|grep cp
+cat ~/.history|grep cp
+cp $HISTFILE ~/git/history_20201711.txt\
+
